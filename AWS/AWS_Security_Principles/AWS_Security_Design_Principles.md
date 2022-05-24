@@ -104,5 +104,27 @@ Safeguarding data is a critical piece of building and operating information syst
 --> 
 
 # Security design principles
+
+Prepare for security events
+
+- Mitigate the impact of security incidents
+- Create processes to isolate incidents and restore operations
+
+<!-- 
+
+Even with mature preventive and detective controls, you should still put processes in place to respond to and mitigate the potential impact of security incidents. The architecture of your workload strongly affects your ability to operate effectively during an incident, isolate or contain systems, and restore operations to a known good state. Put tools and access in place ahead of a security incident. Then, routinely practice incident response through game days. This will help you ensure that your architecture can accommodate timely investigation and recovery. In AWS, there are a number of different approaches to consider when addressing incident response, which we will cover in an upcoming module.
+
+-->
+
 # Security design principles
 
+Minimize attack surface
+
+- Be ready to scale and absorb the attack
+- Safeguard exposed resources
+
+<!-- 
+
+Generally, a cyber attack terminates due to two reasons: either the attackers exhaust themselves and give up, or the attackers achieve their goal. Be ready to scale and absorb the attack, minimize, or remove the possibility of an unprotected device. Certain AWS services, like AWS Auto Scaling and Amazon CloudFront, allow applications to scale to absorb common infrastructure layer attacks like UDP reflection attacks and SYN floods. An UDP reflection attack takes place when the attacker asks the target computer for some information using a forged source address. A SYN flood is a type of denial-of-service (DDoS) attack which aims to make a server unavailable to legitimate traffic by consuming all available server resources. These techniques can also allow you to absorb larger volumes of application layer attacks.
+
+-->
