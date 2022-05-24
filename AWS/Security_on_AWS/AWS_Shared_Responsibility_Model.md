@@ -11,7 +11,7 @@ classoption: aspectratio=169
 # AWS shared responsibility model
 
 
-``` {.mermaid width=100%}
+```mermaid
 
 graph TD
 
@@ -58,7 +58,7 @@ For more information about the AWS shared responsibility model, see https://aws.
 
 # AWS shared responsibility model
 
-```{.mermaid height=100%}
+```mermaid
 
 graph TB
 
