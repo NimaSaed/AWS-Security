@@ -2,14 +2,14 @@
 
 ## Day 1
 
-### Security on AWS
+### m01 Security on AWS
 
-- security design principles
-- shared responsibility model
+- [security design principles](./m01_Security_on_AWS/AWS_Security_Design_Principles.md)
+- [shared responsibility model](./m01_Security_on_AWS/AWS_Shared_Responsibility_Model.md)
 
-### Identity and Access management
+### m02 Identity and Access management
 
-- User, Group, Role and Policies
+- [User, Group, Role and Policies](./m02_Identity_and_Access_management/user_group_role_policy.md)
 - Permission boundaries and SCPs
 - Access Analyser
 
