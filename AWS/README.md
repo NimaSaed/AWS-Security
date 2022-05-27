@@ -17,10 +17,10 @@
 
 ### Infrastructure Security
 
-- VPC Security
+- [VPC Security](./m03_Infrastructure_Security/VPC_Security.md)
     - VPC Security Features
     - VPC FlowLog
-- Amazon Route 53
+    - VPC Traffic Mirroring
 - Amazon Inspector (Automate vulnerability management)
 
 > Lab 2 - Securing VPC recourses with security group

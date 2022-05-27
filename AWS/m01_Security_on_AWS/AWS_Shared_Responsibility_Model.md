@@ -10,12 +10,17 @@ classoption: aspectratio=169
 
 # AWS shared responsibility model
 
+- Security of the cloud
+- Security in the cloud
+
+# AWS shared responsibility model
+
 
 ```mermaid
 
 graph TD
 
-  subgraph "Security <i>of</i> The Clound <br/>"
+  subgraph "Security <i>of</i> The Cloud <br/>"
 
   B[[_________________ Software _________________]]
 
