@@ -23,9 +23,11 @@
     - VPC Traffic Mirroring
 - Amazon Inspector (Automate vulnerability management)
 
-> Lab 2 - Securing VPC recourses with security group
+> Lab 2 - Securing VPC resources with security group
 
-> Lab 3 - Using SSM and Amazon Inspector
+> Lab 3 - AWS Traffic Monitoring
+
+> Lab 4 - Using SSM and Amazon Inspector
 
 ## Day 2
 
@@ -42,7 +44,7 @@
 - Amazon Athena (Interactive analytics)
 - AWS Glue (Serverless data integration service)
 
-> Lab 4 - Web Server Log Analysis with Amazon Kinesis and Amazon Athena
+> Lab 5 - Web Server Log Analysis with Amazon Kinesis and Amazon Athena
 
 ### DDoS mitigation
 
@@ -54,7 +56,7 @@
 - AWS Config (Record and evaluate configurations of your AWS resources)
 - AWS Lambda and event-driven response system
 
-> Lab 5 - Monitor and Respond with AWS Config
+> Lab 6 - Monitor and Respond with AWS Config
 
 ## Proposed Timeline
 
