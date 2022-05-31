@@ -21,13 +21,14 @@
     - VPC Security Features
     - VPC FlowLog
     - VPC Traffic Mirroring
-- Amazon Inspector (Automate vulnerability management)
+    - Forensics on AWS, Instance Isolation 
+- [Amazon Inspector (Automate vulnerability management)](./m03_Infrastructure_Security/Amazon_inspector.md)
 
-> Lab 2 - Securing VPC resources with security group
+> [Lab 2](./m03_Infrastructure_Security/lab2.md) - Securing VPC resources with security group
 
-> Lab 3 - AWS Traffic Monitoring
+> [Lab 3](./m03_Infrastructure_Security/lab3.md) - AWS Traffic Monitoring
 
-> Lab 4 - Using SSM and Amazon Inspector
+> [Lab 4](./m03_Infrastructure_Security/lab4.md) - Using SSM and Amazon Inspector
 
 ## Day 2
 

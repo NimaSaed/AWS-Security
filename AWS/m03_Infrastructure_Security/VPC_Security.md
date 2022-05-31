@@ -1,7 +1,7 @@
 ---
 title: AWS Security
-subtitle: VPC Security
-author: Nima
+subtitle: Xebia Security
+author: Nima Saed
 date: June 2022
 theme: Boadilla
 classoption: aspectratio=169
@@ -91,6 +91,12 @@ The following diagram illustrates the layers of security provided by security gr
 | All rules are evaluated before deciding whether to allow traffic | All rules are processed in order when deciding whether to allow traffic |
 | Needs to be manually assigned to instances | Automatically applied when instances are added to subnet |
 | Requires configuration to allow communication | Allows communication by default |
+
+# VPC Security
+
+Securing VPC resources with security group
+
+Lab 2
 
 # VPC Security
 
@@ -186,16 +192,8 @@ VPC Traffic Mirroring use cases
 
 VPC Traffic Mirroring Demo
 
-1. Create 2 t3a.micro instances
-    - Malicious
-    - Inspector
-2. Create Traffic Mirror Target and attach inspector
-3. Create Traffic Mirror Filter and accept everything except SSH
-4. Create Traffic Mirror Session and attach Malicious
-5. Modify inspector's security group to accept UDP port 4789 from Malicious' security group.
-6. run TCPDUMP on inspector
-    - `sudo tcpdump not port ssh -w session.pcap`
-7. Download the pcap file and open it in wireshark
+Lab 3
+
 
 # Forensics on AWS
 

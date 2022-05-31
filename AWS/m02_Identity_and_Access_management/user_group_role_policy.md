@@ -1,8 +1,8 @@
 ---
-title: Title
-subtitle: Subtitle
-author: Author
-date: Date
+title: AWS Security
+subtitle: Xebia Security
+author: Nima Saed
+date: June 2022
 theme: Boadilla
 classoption: aspectratio=169
 ---
