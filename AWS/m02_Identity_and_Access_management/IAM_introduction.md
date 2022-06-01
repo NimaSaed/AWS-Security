@@ -187,16 +187,16 @@ graph LR
   style note text-align:left
 ```
 
-<!--  
-You manage access in AWS by creating policies and attaching them to IAM identities or AWS resources. An identity-based policy is an object in AWS that, when associated with an IAM identity, defines their permissions. AWS evaluates these policies when a principal entity (user or role) makes a request. Permissions in the policies determine whether the request is allowed or denied. Most policies are stored in AWS as JSON documents. 
+<!--
+You manage access in AWS by creating policies and attaching them to IAM identities or AWS resources. An identity-based policy is an object in AWS that, when associated with an IAM identity, defines their permissions. AWS evaluates these policies when a principal entity (user or role) makes a request. Permissions in the policies determine whether the request is allowed or denied. Most policies are stored in AWS as JSON documents.
 
 For example, if a policy allows the GetUser action, then a user with that policy can get user information from the AWS Management Console, the AWS CLI, or the AWS API. When you create an IAM user, you can choose to allow console or programmatic access. If console access is allowed, the IAM user can sign in to the console with a user name and password. Or if programmatic access is allowed, the user can use access keys to work with the CLI or API.
 
-Identity-based policies come in two flavors: managed and inline. Managed policies are standalone policies that you can attach to multiple users, groups, and roles in your AWS account. You can use two types of managed policies. AWS managed policies are created and managed by AWS. If you are new to using policies, AWS recommends that you start by using AWS managed policies. 
+Identity-based policies come in two flavors: managed and inline. Managed policies are standalone policies that you can attach to multiple users, groups, and roles in your AWS account. You can use two types of managed policies. AWS managed policies are created and managed by AWS. If you are new to using policies, AWS recommends that you start by using AWS managed policies.
 
 
 
-Customer managed policies are policies that you create and manage in your AWS account. Customer managed policies provide more precise control over your policies than AWS managed policies. You can create and edit an IAM policy in the visual editor or by creating the JSON policy document directly. Inline policies are embedded directly into a single user, group, or role. In most cases, AWS doesn’t recommend using inline policies. Inline policies are useful if you want to maintain a strict one-to-one relationship between a policy and the principal entity that it's applied to. For example, if you want to be sure that the permissions in a policy are not inadvertently assigned to a principal entity other than the one they're intended for. 
+Customer managed policies are policies that you create and manage in your AWS account. Customer managed policies provide more precise control over your policies than AWS managed policies. You can create and edit an IAM policy in the visual editor or by creating the JSON policy document directly. Inline policies are embedded directly into a single user, group, or role. In most cases, AWS doesn’t recommend using inline policies. Inline policies are useful if you want to maintain a strict one-to-one relationship between a policy and the principal entity that it's applied to. For example, if you want to be sure that the permissions in a policy are not inadvertently assigned to a principal entity other than the one they're intended for.
 -->
 
 # AWS IAM Policy
@@ -241,6 +241,8 @@ Statement:
     Resource: '*'
 ```
 
-# AWS IAM Policy 
+# AWS IAM Policy
 
 ![](../resources/images/PolicyEvaluationHorizontal.png)
+
+[reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)

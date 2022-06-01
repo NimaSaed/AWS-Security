@@ -7,6 +7,9 @@ theme: Boadilla
 classoption: aspectratio=169
 ---
 
+# Pizza as Service
+
+![](../resources/images/pizzaas.JPG)
 
 # AWS shared responsibility model
 

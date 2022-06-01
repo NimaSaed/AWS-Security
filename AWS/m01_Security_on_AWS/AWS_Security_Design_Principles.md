@@ -9,7 +9,7 @@ classoption: aspectratio=169
 
 # Intro
 
-TODO
+Add your introduction
 
 # Security design principles
 
@@ -36,6 +36,8 @@ In the cloud, there are a number of principles that can help you strengthen your
 
 # Security design principles
 
+![](../resources/images/checklist.svg)
+
 Apply principle of least privilege
 
 - Grant access as needed
@@ -49,6 +51,8 @@ An organizational security culture should be built on the principle of least pri
 -->
 
 # Security design principles
+
+![](../resources/images/investigate.svg)
 
 Enable traceability
 
@@ -64,6 +68,8 @@ With AWS, you can monitor, alert, and audit actions and changes to your environm
 
 # Security design principles
 
+![](../resources/images/layers.svg)
+
 Secure all layers
 
 - Defense-in-depth approach
@@ -76,6 +82,8 @@ Rather than just focusing on the protection of a single outer layer, apply a def
 --> 
 
 # Security design principles
+
+![](../resources/images/gear.svg)
 
 Automate security
 
@@ -92,6 +100,8 @@ In AWS, you can turn your infrastructure into code. This allows you to automate 
 
 # Security design principles
 
+![](../resources/images/safe.svg)
+
 Protect data in transit and at rest
 
 - Use encryption and access controls
@@ -106,6 +116,8 @@ Safeguarding data is a critical piece of building and operating information syst
 
 # Security design principles
 
+![](../resources/images/process.svg)
+
 Prepare for security events
 
 - Mitigate the impact of security incidents
@@ -118,6 +130,8 @@ Even with mature preventive and detective controls, you should still put process
 -->
 
 # Security design principles
+
+![](../resources/images/target.svg)
 
 Minimize attack surface
 
