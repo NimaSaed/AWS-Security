@@ -9,11 +9,11 @@
 
 ### m02 Identity and Access management
 
-- [User, Group, Role and Policies](./m02_Identity_and_Access_management/user_group_role_policy.md)
-- Permission boundaries and SCPs
-- Access Analyser
+- [IAM Introduction](./m02_Identity_and_Access_management/IAM_introduction.md)
+- [IAM Advance](./m02_Identity_and_Access_management/IAM_advance.md)
+- [IAM Access Analyser](./m02_Identity_and_Access_management/IAM_access_analyser.md)
 
-> Lab 1 - Understanding IAM
+> [Lab 1](./m02_Identity_and_Access_management/lab1.md) - Understanding IAM
 
 ### Infrastructure Security
 
