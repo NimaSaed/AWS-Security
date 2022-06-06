@@ -15,13 +15,13 @@
 
 > [Lab 1](./m02_Identity_and_Access_management/lab1.md) - Understanding IAM
 
-### Infrastructure Security
+### m03 Infrastructure Security
 
 - [VPC Security](./m03_Infrastructure_Security/VPC_Security.md)
     - VPC Security Features
     - VPC FlowLog
     - VPC Traffic Mirroring
-    - Forensics on AWS, Instance Isolation 
+    - Forensics on AWS, Instance Isolation
 - [Amazon Inspector (Automate vulnerability management)](./m03_Infrastructure_Security/Amazon_inspector.md)
 
 > [Lab 2](./m03_Infrastructure_Security/lab2.md) - Securing VPC resources with security group
@@ -32,12 +32,17 @@
 
 ## Day 2
 
-### Monitoring and Detective Controls
+### m04 Monitoring and Detective Controls
 
-- AWS Security Hub (Automate AWS security checks and centralise security alerts)
-- Amazon CloudTrail (Track user activity and API usage)
-- Amazon GuardDuty (Protect AWS accounts with intelligent threat detection)
 - Amazon CloudWatch
+- [Amazon CloudTrail](./m04_Monitoring_and_Detective_Controls/AWS_Cloudtrail.md) (Track user activity and API usage)
+- [Amazon GuardDuty](./m04_Monitoring_and_Detective_Controls/AWS_GuardDuty.md) (Protect AWS accounts with intelligent threat detection)
+- [AWS Security Hub](./m04_Monitoring_and_Detective_Controls/AWS_Security_Hub.md) (Automate AWS security checks and centralise security alerts)
+- Amazon Detective
+
+> [Lab 5](./m04_Monitoring_and_Detective_Controls/lab5.md) - Amazon EventBridge, Inspector and SNS
+
+> [Lab 6](./m04_Monitoring_and_Detective_Controls/lab6.md) - Amazon EventBridge, Amazon GuardDuty  and AWS Lambda
 
 ### Processing log on AWS
 
@@ -95,3 +100,6 @@
 16:00-16:30     Lab 5: Monitor and Respond with AWS Config
 16:30-17:00     Recap Day 1 and Day 2
 ```
+
+
+Getting AWS services' Logo/Icon [here](https://awsicons.dev)
