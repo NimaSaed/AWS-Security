@@ -1,7 +1,7 @@
 ---
 title: AWS Security
 subtitle: Xebia Security
-author: Nima
+author: Nima Saed
 date: June 2022
 theme: Boadilla
 classoption: aspectratio=169
@@ -64,9 +64,9 @@ Centrally manage the security and hardening of your applications and OS
 - OS and application configuration
 - Session manager
 
-<!-- 
+<!--
 
-AWS recommends centrally managing the security of your operating systems and applications running on EC2 instances in a single secure build repository. In doing so, you can develop configuration standards that address all known security vulnerabilities and are consistent with industry-accepted system-hardening standards. 
+AWS recommends centrally managing the security of your operating systems and applications running on EC2 instances in a single secure build repository. In doing so, you can develop configuration standards that address all known security vulnerabilities and are consistent with industry-accepted system-hardening standards.
 
 AWS Systems Manager (SSM) is a collection of capabilities that helps you automate management tasks such as collecting system inventory, applying operating system patches, automating the creation of AMIs, and configuring operating systems and applications at scale. Systems Manager lets you remotely and securely manage the configuration of your managed instances.
 
@@ -76,13 +76,13 @@ The Session Manager feature allows the user to secure and audit instance managem
 
 # Amazon Inspector
 
-Use Case 
+Use Case
 
 ![](../resources/images/aws_inspector_use_case.png)
 
 [https://aws.amazon.com/blogs/security/how-to-remediate-amazon-inspector-security-findings-automatically/](https://aws.amazon.com/blogs/security/how-to-remediate-amazon-inspector-security-findings-automatically/)
 
-<!-- 
+<!--
 
 As an AWS-built service, Amazon Inspector is designed to exchange data and interact with other core AWS services not only to identify potential security findings, but also to automate addressing those findings. Using Amazon Inspector with AWS Lambda allows you to automate certain security tasks. Even better, you can take actions on EC2 instances in response to Amazon Inspector findings by using Lambda to invoke Systems Manager. This enables you to take instance-specific actions based on issues that Amazon Inspector finds. Combining these capabilities allows you to build event-driven security automation to help better secure your AWS environment in near real time.
 
@@ -100,6 +100,6 @@ https://aws.amazon.com/blogs/security/how-to-remediate-amazon-inspector-security
 
 # Amazon Inspector
 
-Demo 
+Demo
 
 Lab 4 - Using SSM and Amazon Inspector

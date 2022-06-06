@@ -9,13 +9,11 @@
 
 
 
+# Understanding IAM
 
 ```
 {
-    "Version": "2012-10-17",
-    "Statement": [
         {
-            "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
                 "iam:GetRole",
@@ -24,11 +22,9 @@
             "Resource": "*"
         },
         {
-            "Sid": "VisualEditor1",
             "Effect": "Allow",
             "Action": "sts:AssumeRole",
             "Resource": "arn:aws:iam::{accountid}:role/your_name_role_list_s3"
         }
-    ]
 }
 ```

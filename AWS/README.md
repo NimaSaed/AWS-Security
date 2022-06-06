@@ -74,6 +74,7 @@
 12:45-13:45     Infrastructure Security Part 1
 13:45-14:15     Lab 2: Securing VPC recourses with security group
 14:15-14:30     Break
+                Lab 3: AWS Traffic Monitoring
 14:30-15:30     Infrastructure Security Part 2
 15:30-17:00     Lab 3: Using SSM and Amazon Inspector
 ```

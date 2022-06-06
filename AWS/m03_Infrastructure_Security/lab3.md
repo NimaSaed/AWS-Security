@@ -1,5 +1,3 @@
-# AWS Traffic Monitoring
-
 ## VPC Flow logs
 
 1. VPC flow Logs
