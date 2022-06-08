@@ -15,7 +15,7 @@
 
 > [Lab 2.1](./m02_Identity_and_Access_management/lab2-1.md) - Understanding IAM
 
-> [Lab 2.2](./m02_Identity_and_Access_management/lab2.2.md) IAM Permissions Boundary
+> [Lab 2.2](./m02_Identity_and_Access_management/lab2-2.md) IAM Permissions Boundary
 
 ### m03 Infrastructure Security
 
