@@ -57,7 +57,7 @@
 ### m06 DDoS mitigation
 
 - [AWS WAF](./m06_ddos_mitigation/aws_waf.md)
-- AWS Shield (Managed Distributed Denial of Service)
+- [AWS Shield](./m06_ddos_mitigation/aws_shield.md) 
 
 ### m07 Incident Response Essentials
 
