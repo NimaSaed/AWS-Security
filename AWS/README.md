@@ -15,6 +15,8 @@
 
 > [Lab 1](./m02_Identity_and_Access_management/lab1.md) - Understanding IAM
 
+> [Lab 1.1](./m02_Identity_and_Access_management/lab1.1.md) IAM Permissions Boundary
+
 ### m03 Infrastructure Security
 
 - [VPC Security](./m03_Infrastructure_Security/VPC_Security.md)
@@ -34,32 +36,32 @@
 
 ### m04 Monitoring and Detective Controls
 
-- Amazon CloudWatch
-- [Amazon CloudTrail](./m04_Monitoring_and_Detective_Controls/AWS_Cloudtrail.md) (Track user activity and API usage)
-- [Amazon GuardDuty](./m04_Monitoring_and_Detective_Controls/AWS_GuardDuty.md) (Protect AWS accounts with intelligent threat detection)
-- [AWS Security Hub](./m04_Monitoring_and_Detective_Controls/AWS_Security_Hub.md) (Automate AWS security checks and centralise security alerts)
-- Amazon Detective
+- [Amazon CloudWatch and EventBridge](./m04_Monitoring_and_Detective_Controls/Amazon_CloudWatch.md)
+- [Amazon CloudTrail](./m04_Monitoring_and_Detective_Controls/AWS_Cloudtrail.md)
+- [Amazon GuardDuty](./m04_Monitoring_and_Detective_Controls/AWS_GuardDuty.md)
+- [AWS Security Hub](./m04_Monitoring_and_Detective_Controls/AWS_Security_Hub.md)
+- [Amazon Detective](./m04_Monitoring_and_Detective_Controls/Amazon_Detective.md)
 
 > [Lab 5](./m04_Monitoring_and_Detective_Controls/lab5.md) - Amazon EventBridge, Inspector and SNS
 
 > [Lab 6](./m04_Monitoring_and_Detective_Controls/lab6.md) - Amazon EventBridge, Amazon GuardDuty  and AWS Lambda
 
-### Processing log on AWS
+### m05 Processing log on AWS
 
-- Amazon Kinesis (Interactive analytics)
+- [Amazon Kinesis](./m05_Processing_Logs_On_AWS/AWS_Kinesis.md) (Interactive analytics)
 - Amazon Athena (Interactive analytics)
 - AWS Glue (Serverless data integration service)
 
-> Lab 5 - Web Server Log Analysis with Amazon Kinesis and Amazon Athena
+<!-- >> Lab 5 - Web Server Log Analysis with Amazon Kinesis and Amazon Athena --> 
 
-### DDoS mitigation
+### m06 DDoS mitigation
 
+- [AWS WAF](./m06_ddos_mitigation/aws_waf.md)
 - AWS Shield (Managed Distributed Denial of Service)
-- AWS WAF (Filter Malicious Web Traffic)
 
-### Incident Response Essentials
+### m07 Incident Response Essentials
 
-- AWS Config (Record and evaluate configurations of your AWS resources)
+- [AWS Config](./m07_Incident_Response_Essentials/AWS_Config.md)
 - AWS Lambda and event-driven response system
 
 > Lab 6 - Monitor and Respond with AWS Config
