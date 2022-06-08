@@ -2,7 +2,7 @@
 
 - Create 2 security groups
     - Allow http to loadbalancer
-    - Allow hhtp from loadbalancer
+    - Allow http from loadbalancer
 - Create Instance with Web server
 - Create Target group
 - Create Loadblanacer
@@ -16,4 +16,4 @@
 
 https://labs.cloudbric.com/wafer
 
-- Add SQL injection managed rule and test your application again. 
+- Add SQL injection managed rule and test your application again.
