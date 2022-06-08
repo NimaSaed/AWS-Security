@@ -42,7 +42,8 @@
 - [AWS Security Hub](./m04_Monitoring_and_Detective_Controls/AWS_Security_Hub.md)
 - [Amazon Detective](./m04_Monitoring_and_Detective_Controls/Amazon_Detective.md)
 
-> [Lab 5](./m04_Monitoring_and_Detective_Controls/lab5.md) - Amazon EventBridge, Inspector and SNS
+> [Lab 4.1](./m04_Monitoring_and_Detective_Controls/lab4-1.md) - VPC Flow Logs on CloudWatch 
+> [Lab 4.2](./m04_Monitoring_and_Detective_Controls/lab4-2.md) - Amazon EventBridge, Inspector and SNS
 
 > [Lab 6](./m04_Monitoring_and_Detective_Controls/lab6.md) - Amazon EventBridge, Amazon GuardDuty  and AWS Lambda
 
