@@ -45,13 +45,11 @@
 > [Lab 4.1](./m04_Monitoring_and_Detective_Controls/lab4-1.md) - VPC Flow Logs on CloudWatch 
 > [Lab 4.2](./m04_Monitoring_and_Detective_Controls/lab4-2.md) - Amazon EventBridge, Inspector and SNS
 
-> [Lab 6](./m04_Monitoring_and_Detective_Controls/lab6.md) - Amazon EventBridge, Amazon GuardDuty  and AWS Lambda
-
 ### m05 Processing log on AWS
 
-- [Amazon Kinesis](./m05_Processing_Logs_On_AWS/AWS_Kinesis.md) (Interactive analytics)
-- Amazon Athena (Interactive analytics)
-- AWS Glue (Serverless data integration service)
+- [Amazon Kinesis](./m05_Processing_Logs_On_AWS/AWS_Kinesis.md)
+- [Amazon Athena](./m05_Processing_Logs_On_AWS/AWS_Athena.md)
+- [AWS Glue](./m05_Processing_Logs_On_AWS/AWS_Glue.md)
 
 <!-- >> Lab 5 - Web Server Log Analysis with Amazon Kinesis and Amazon Athena --> 
 
@@ -60,12 +58,14 @@
 - [AWS WAF](./m06_ddos_mitigation/aws_waf.md)
 - [AWS Shield](./m06_ddos_mitigation/aws_shield.md) 
 
+> [Lab 6.1](./m06_ddos_mitigation/Lab6.1.md) WAF Setup for a Application Loadbalancer
+
 ### m07 Incident Response Essentials
 
 - [AWS Config](./m07_Incident_Response_Essentials/AWS_Config.md)
-- AWS Lambda and event-driven response system
+<!-- - AWS Lambda and event-driven response system --> 
 
-> Lab 6 - Monitor and Respond with AWS Config
+<!-- >> Lab 6 - Monitor and Respond with AWS Config -->
 
 ## Proposed Timeline
 
