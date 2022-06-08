@@ -141,15 +141,13 @@ Cloudtrail has integrety check, AWS uses sha2 hashing and sha2 rsa digital signa
 
 # AWS CloudTrail
 
-![](../resources/images/aws_cloudtrail.svg)
-
 Log consolidation
 
 ![](../resources/images/aws_cloudtrail_log_consolidation.png)
 
 <!--
 
-Users who need to further archive, analyze, and respond to changes in your AWS resources can create a CloudTrail “trail” that sends log files to a designated Amazon S3 bucket. You can either create a trail that applies to all regions, or to one region. When creating a trail that applies to all regions, CloudTrail creates the same trail in each region, records the log files in each region, and delivers the log files to a single S3 bucket. Each region may have up to five trails. You may also deliver logs from multiple accounts into one account’s S3 bucket. When you enable CloudTrail in an AWS account, every API call invoked across the account is recorded and logged into a specified S3 bucket as part of the established trail. These two types of deployments are known as Many-to-one centralization. 
+Users who need to further archive, analyze, and respond to changes in your AWS resources can create a CloudTrail “trail” that sends log files to a designated Amazon S3 bucket. You can either create a trail that applies to all regions, or to one region. When creating a trail that applies to all regions, CloudTrail creates the same trail in each region, records the log files in each region, and delivers the log files to a single S3 bucket. Each region may have up to five trails. You may also deliver logs from multiple accounts into one account’s S3 bucket. When you enable CloudTrail in an AWS account, every API call invoked across the account is recorded and logged into a specified S3 bucket as part of the established trail. These two types of deployments are known as Many-to-one centralization.
 
 -->
 
@@ -170,7 +168,7 @@ AWS CloudTrail best practices
 CloudTrail is enabled on your AWS account when you create it. When activity occurs in your AWS account, that activity is recorded in a CloudTrail event. You can easily view recent events in the CloudTrail console by going to Event history. In order to ensure that you provide the correct balance of security and operational flexibility, we recommend the following best practices when using CloudTrail:
 - CloudTrail logs should be sent to an S3 bucket to take advantage of the S3 lifecycle policy.
 - Centralize the collection of logs by using a dedicated AWS ‘Audit account’ for the purpose of log aggregation, separate from other resource accounts. This allows a more simplified and less operationally complex approach to the security control.
-- Always enforce the least privilege principle for logging buckets. 
+- Always enforce the least privilege principle for logging buckets.
 - Enforce MFA delete on the CloudTrail S3 bucket to ensure that files cannot be removed or tampered with.
 - We recommend enabling versions in the S3 bucket so no one can overwrite a log with a modified log file. 
 

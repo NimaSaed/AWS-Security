@@ -1,3 +1,12 @@
+---
+title: AWS Security
+subtitle: Xebia Security
+author: Nima Saed
+date: June 2022
+theme: Boadilla
+classoption: aspectratio=169
+---
+
 # Amazon CloudWatch
 
 ![](../resources/images/aws_cloudwatch.svg)
@@ -21,62 +30,11 @@ Enable flow log on CloudWatch
 
 https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs-cwl.html
 
-
-# Amazon CloudWatch
-
-![](../resources/images/aws_cloudwatch.svg)
-
-Enable flow log on CloudWatch
-
-Policy
-
-```
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "logs:CreateLogGroup",
-        "logs:CreateLogStream",
-        "logs:PutLogEvents",
-        "logs:DescribeLogGroups",
-        "logs:DescribeLogStreams"
-      ],
-      "Resource": "*"
-    }
-  ]
-}   
-```
-
-# Amazon CloudWatch
-
-![](../resources/images/aws_cloudwatch.svg)
-
-Enable flow log on CloudWatch
-
-Role
-
-```
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Principal": {
-        "Service": "vpc-flow-logs.amazonaws.com"
-      },
-      "Action": "sts:AssumeRole"
-    }
-  ]
-} 
-```
-
 # Amazon EventBrdige
 
 ![](../resources/images/aws_eventbridge.svg)
 
-Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources. 
+Amazon EventBridge is a serverless event bus service that makes it easy to connect your applications with data from a variety of sources.
 
 # Amazon EventBrdige
 
