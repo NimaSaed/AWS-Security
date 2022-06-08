@@ -36,6 +36,8 @@ STORY: Use a Kinesis Agent on a Windows machine to send data to Kinesis applicat
 
 Picture courtesy: https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
 
+# Concepts
+
 - Producer = Puts data into Kinesis
 - Consumer = Gets data from Kinesis
 - Data stream > Shard > Data record > Data blob
