@@ -9,7 +9,7 @@ classoption: aspectratio=169
 
 # AWS Kinesis
 
-![](../resources/images/aws_kinesis.png)
+![](../resources/images/AWS_kinesis.png)
 
 Picture courtesy: https://aws.amazon.com/kinesis/
 
