@@ -13,9 +13,9 @@
 - [IAM Advance](./m02_Identity_and_Access_management/IAM_advance.md)
 - [IAM Access Analyser](./m02_Identity_and_Access_management/IAM_access_analyser.md)
 
-> [Lab 1](./m02_Identity_and_Access_management/lab1.md) - Understanding IAM
+> [Lab 2.1](./m02_Identity_and_Access_management/lab2-1.md) - Understanding IAM
 
-> [Lab 1.1](./m02_Identity_and_Access_management/lab1.1.md) IAM Permissions Boundary
+> [Lab 2.2](./m02_Identity_and_Access_management/lab2.2.md) IAM Permissions Boundary
 
 ### m03 Infrastructure Security
 
@@ -42,7 +42,8 @@
 - [AWS Security Hub](./m04_Monitoring_and_Detective_Controls/AWS_Security_Hub.md)
 - [Amazon Detective](./m04_Monitoring_and_Detective_Controls/Amazon_Detective.md)
 
-> [Lab 4.1](./m04_Monitoring_and_Detective_Controls/lab4-1.md) - VPC Flow Logs on CloudWatch 
+> [Lab 4.1](./m04_Monitoring_and_Detective_Controls/lab4-1.md) - VPC Flow Logs on CloudWatch
+
 > [Lab 4.2](./m04_Monitoring_and_Detective_Controls/lab4-2.md) - Amazon EventBridge, Inspector and SNS
 
 ### m05 Processing log on AWS
@@ -51,19 +52,19 @@
 - [Amazon Athena](./m05_Processing_Logs_On_AWS/AWS_Athena.md)
 - [AWS Glue](./m05_Processing_Logs_On_AWS/AWS_Glue.md)
 
-<!-- >> Lab 5 - Web Server Log Analysis with Amazon Kinesis and Amazon Athena --> 
+<!-- >> Lab 5 - Web Server Log Analysis with Amazon Kinesis and Amazon Athena -->
 
 ### m06 DDoS mitigation
 
 - [AWS WAF](./m06_ddos_mitigation/aws_waf.md)
-- [AWS Shield](./m06_ddos_mitigation/aws_shield.md) 
+- [AWS Shield](./m06_ddos_mitigation/aws_shield.md)
 
 > [Lab 6.1](./m06_ddos_mitigation/Lab6.1.md) WAF Setup for a Application Loadbalancer
 
 ### m07 Incident Response Essentials
 
 - [AWS Config](./m07_Incident_Response_Essentials/AWS_Config.md)
-<!-- - AWS Lambda and event-driven response system --> 
+<!-- - AWS Lambda and event-driven response system -->
 
 <!-- >> Lab 6 - Monitor and Respond with AWS Config -->
 
