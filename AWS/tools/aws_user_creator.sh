@@ -28,6 +28,15 @@ do
         # if delete is requested
         if [ ${2:-""} = "-d" ]; then
             echo "Deleting user ${aws_user} from ${aws_accout_alias}"
+
+            number_of_mfa_devices=$(aws iam list-mfa-devices --user-name ${aws_user} | jq '.MFADevices | length')
+
+            for ((i=0;i<number_of_mfa_devices;i++)); do
+                #Delete first mfa each time, index 0
+                mfa_serialnumber=$(aws iam list-mfa-devices --user-name ${aws_user} | jq .MFADevices[0].SerialNumber)
+                aws iam deactivate-mfa-device --user-name ${aws_user} --serial-number ${mfa_serialnumber}
+            done
+
             aws iam remove-user-from-group --user-name ${aws_user} --group-name ${aws_group}
             aws iam delete-login-profile --user-name ${aws_user}
             aws iam delete-user --user-name ${aws_user}

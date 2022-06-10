@@ -15,7 +15,7 @@
 
 > [Lab 2.1](./m02_Identity_and_Access_management/lab2-1.md) - Understanding IAM
 
-> [Lab 2.2](./m02_Identity_and_Access_management/lab2-2.md) IAM Permissions Boundary
+> [Lab 2.2](./m02_Identity_and_Access_management/lab2-2.md) - IAM Permissions Boundary
 
 ### m03 Infrastructure Security
 
@@ -26,11 +26,11 @@
     - Forensics on AWS, Instance Isolation
 - [Amazon Inspector (Automate vulnerability management)](./m03_Infrastructure_Security/Amazon_inspector.md)
 
-> [Lab 2](./m03_Infrastructure_Security/lab2.md) - Securing VPC resources with security group
+> [Lab 3.1](./m03_Infrastructure_Security/lab3-1.md) - Securing VPC resources with security group
 
-> [Lab 3](./m03_Infrastructure_Security/lab3.md) - AWS Traffic Monitoring
+> [Lab 3.2](./m03_Infrastructure_Security/lab3-2.md) - AWS Traffic Monitoring
 
-> [Lab 4](./m03_Infrastructure_Security/lab4.md) - Using SSM and Amazon Inspector
+> [Lab 3.3](./m03_Infrastructure_Security/lab3-3.md) - Using SSM and Amazon Inspector
 
 ## Day 2
 

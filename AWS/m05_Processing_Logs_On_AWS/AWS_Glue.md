@@ -13,6 +13,9 @@ classoption: aspectratio=169
 
 Image courtesy https://aws.amazon.com/glue/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
 
+
+# AWS Glue
+
 - Serverless service for data analytics and transformation
 - ETL or Extract, Transform and Load pipelines can be built with Glue
 - Can take data from most AWS data stores (RedShift, DynamoDB etc)
