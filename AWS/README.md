@@ -1,4 +1,10 @@
-# AWS Training Contents
+# AWS Security Champion
+
+AWS Security Champion is about boosting your skills as a cloud security expert.
+
+By the end of these two days of training, you will be better equipped to build secure application infrastructures and protect applications and data from common security threats.
+
+You’ll be able to perform and automate security checks and configure authentication and permissions for applications and resources. Monitor AWS resources and respond to incidents. And finally, capture and process logs for deep investigation of security incidents.
 
 ## Day 1
 
