@@ -1,3 +1,10 @@
+TODO:
+
+- cloudwatch - - CPU load can be indicator of malware or malicious activity
+- Security hub finding notify cloud watch and send notification or trigger lambda function.
+- Dashboard creation for WAF https://aws.amazon.com/blogs/security/deploy-dashboard-for-aws-waf-minimal-effort/
+- A chapter about SSM secrets, AWS secret manager and KMS.
+
 # AWS Security Champion
 
 AWS Security Champion is about boosting your skills as a cloud security expert.
