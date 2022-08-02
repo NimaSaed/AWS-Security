@@ -12,4 +12,5 @@ TODO:
 
 - File Tree
     - [AWS](./AWS/) : AWS Security Training
+    - [GCP](./GCP/) : GCP Security Training
 
