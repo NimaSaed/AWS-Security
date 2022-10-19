@@ -14,5 +14,5 @@
 4. Create Traffic Mirror Session and attach Malicious
 5. Modify inspector's security group to accept UDP port 4789 from Malicious' security group.
 6. run TCPDUMP on inspector
-    - `sudo tcpdump not port ssh -w session.pcap`
+    - `sudo tcpdump port 4789 -w session.pcap`
 7. Download the pcap file and open it in wireshark
