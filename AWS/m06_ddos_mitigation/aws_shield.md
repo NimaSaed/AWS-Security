@@ -7,7 +7,7 @@ theme: Boadilla
 classoption: aspectratio=169
 ---
 
-# AWS Sheild
+# AWS Shield
 
 ![](../resources/images/aws_shield.svg)
 
@@ -24,7 +24,7 @@ There are two tiers of AWS Shield: Standard and Advanced. All AWS customers bene
 
 -->
 
-# AWS Sheild Standard
+# AWS Shield Standard
 
 ![](../resources/images/aws_shield.svg)
 
@@ -34,7 +34,7 @@ There are two tiers of AWS Shield: Standard and Advanced. All AWS customers bene
 - Always-on detection and inline mitigation minimize application downtime
 - You do not need to engage AWS Support to receive DDoS protection.
 
-# AWS Sheild
+# AWS Shield
 
 ![](../resources/images/aws_shield.svg)
 
