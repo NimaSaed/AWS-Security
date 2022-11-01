@@ -106,7 +106,9 @@ Following are some important characteristics of groups:
 - A group can contain many users, and a user can belong to multiple groups.
 - Groups can't be nested; they can contain only users, not other groups.
 - There's no default group that automatically includes all users in the AWS account. If you want to have a group like that, you must create it and assign each new user to it.
-- There's a limit to the number of groups you can have and a limit to how many groups a user can be in.
+- There's a limit to the number of groups you can have (300) and a limit to how many groups a user can be in.
+
+https://aws.amazon.com/premiumsupport/knowledge-center/iam-increase-policy-size/
 
 -->
 
