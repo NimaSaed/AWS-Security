@@ -5,14 +5,13 @@ TODO:
 - Automate slides date and presenter name
 - Automate slides title
 
-# Xebia Security Training Contents
+# Security Training Contents
 
 > Note: Presenter's notes are in HTML comment. To view them, look at the raw file.
 
 
 - File Tree
     - [AWS](./AWS/) : AWS Security Training
-    - [GCP](./GCP/) : GCP Security Training
 
 
 ## Script to make slides
